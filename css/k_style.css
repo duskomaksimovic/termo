@@ -1,0 +1,507 @@
+@import url('https://fonds.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:400,400i,700i,900&subset=latin-ext');
+
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family:  'Roboto','Poppins', sans-serif;
+	
+
+	
+}
+header {
+	background-color: #fff; /*#eeeae4;*/
+
+}
+
+
+.navbar { 
+	width: 100%;
+	background-color: #003d74;
+	padding: 3rem;
+
+
+}
+
+}
+.navbar-item li {
+	padding-right: 2rem; 
+	color: white;
+}
+.nav-link {
+	font-size: 1.1em !important;
+	padding-right: 2rem;
+}
+.nav-link a {
+	padding: 6rem;
+}
+#navbarResponsive {
+	max-width: 100%;
+	width: 100%;
+	
+	background-color: rgba(0,61,116,.7);
+	text-align: center;
+	border-radius: 0 0 4% 4%;
+	
+}
+.navbar-nav {
+
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption {
+	/*position: absolute;
+	top: 50%;
+	transform: translateY(-50%);*/
+}
+.carousel-caption h1 {
+	/*font-size: 500%;
+	text-transform: uppercase;*/
+	text-shadow: 1px 1px 20px #000;
+	padding-top: 1rem;
+	color: rgba(999,999,999,0.6);
+}
+.carousel-caption h3 {
+	/*font-size: 200%;*/
+	font-weight: 500%;
+	text-shadow: 1px 1px 20px #000;
+	padding-bottom: 1rem;
+}
+/*   DUGMAD  
+ 
+.btn-prymary {
+	background-color: #6648b1;
+	border: 1px solid #6648b1;
+}
+.btn-primary:hower {
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+ 
+*/
+.jumbotron_index {
+	padding: 1rem;
+	border-radius: 0;
+	background-image: url("./../img/header002.jpg");
+	height: 100%;
+}
+.padding {
+	padding-bottom: 2rem;/*---OVO JE ZA SVE PADDINGE STO SMO POSTAVILI --*/
+}
+/*---ya welcome section --*/
+.welcome {
+	width: 75%;
+	margin: 0 auto;/*---ovo centrira --*/
+	padding-top: 2rem;
+	font-weight: 700;
+	
+	
+}
+.welcome h1 {
+	
+	font-style: bolder;
+} /*
+.welcome hr {
+	border-top: 4em solid #003d74;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+	font-style: bold;
+	*/
+}
+#naslov {
+	border-radius: 50%;
+
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+
+}
+/*---Ovo je ono usrano dugme na rasklapanje --*/
+.fun {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+}
+#slibe img {
+	width: 100%;
+	
+}
+.card {
+	height: 100%;
+}
+.card-img-top {
+	height: 50%;
+}
+.card-body {
+	height: 50%;
+	padding-bottom: 1em;
+}
+
+}
+
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-youtube {
+	color: #bb0000;
+}
+#footer {
+	background-color: #3f3f3f;
+	color: #fff;
+	padding-top: 2rem;
+}
+#footer  {
+	border-top: 1px solid #d5d5d5;
+	
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+#footer hr {
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-color: #fff;
+}
+
+
+
+
+
+/*--- Firefox Bug Fix --*/
+.caruousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+}
+/*---Fixed Background Image --*/
+figure {
+	position: relative;
+	width: 100%;
+	height: 70%;
+	margin: 0!important;
+}
+.fixed-wrap {
+	clip: rect(0, auto, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+
+
+}
+#fixed {
+	background-image: url("./../img/header002.jpg");
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+			transform: translateZ(0);
+	will-change: transform;
+	box-shadow: 1em,1em,3em,2em rgba(0,0,0,0,0.9) ;	
+
+}
+#fixed h4 {
+	box-shadow: 1em,1em,3em,2em rgba(0,0,0,0,0.9) ;
+	background-color: rgba(0,0,0,0.3);
+	margin-top: 40%;
+	font-weight: 500%;
+	font-size: 1.3em;
+	border-top-right-radius: 5em;
+	border-bottom-right-radius: 5em;
+	padding-left: 2em;
+	margin-right:18%;
+	font-style: italic;
+	color: rgba(255,255,255,1);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+/*----Bootstrap Padding Fix--*/
+[class*="col-"] {
+	padding: 1rem;
+}
+#navbarResponsive ul li {
+	color: #fff;
+}
+#meni {
+	background: #003d74;
+	width: 100%;
+	color: white;
+	height: 4rem;
+	padding-right: 3em;
+
+}
+#meni li{
+	padding-right: 1rem;
+}
+.logara {
+	width: 30%;
+	text-align: left;
+}
+#logara {
+	height: 100%;
+
+}
+.slicice {
+	text-align: center;
+	padding: 1em 0 0 1em;
+	width: 50%;
+}
+
+.slicice p {
+	display: inline-grid;
+	font-size: 0.7em;
+	color: #000;
+	text-align: left;
+
+}
+
+.slicice a {
+	padding-right: 2em;
+	text-decoration: none;
+	display: inline-block;
+}
+.slicice span img {
+	height: 1.3em;
+	margin-top: 1em;
+
+}
+.slicice span {
+	padding-right: 0.6em;
+}
+#osnova .zastavice {
+	padding-right: .2em;
+	text-align: center;
+	width: 20%;
+	
+}
+.zastavice a {
+	text-decoration: none;
+}
+.zastavice button {
+	border-radius: 50%;
+	height: 2em;
+	width: 2em;
+
+	
+}
+.zastavice a button img {
+	height: 80%;
+	width: 100%;
+	align-items: center;
+	padding-bottom:27%;
+	
+}
+.ruski img {
+	align-items: center;
+	padding-bottom: 15%;
+	min-width: 70%;
+	min-height: 80%;
+}
+/*
+.engleski button {
+	background-image: url("./../img/gb.svg");
+	background-size: cover;
+
+}*/
+.engleski img {
+	align-items: center;
+	padding-bottom: 15%;
+	min-width: 70%;
+	min-height: 80%;
+
+}
+.srpski img {
+	align-items: center;
+	padding-bottom: 15%;
+	min-width: 70%;
+	min-height: 80%;
+}
+#intro  {
+	overflow: hidden;
+	height: 100%;
+	background-image: url("./../img/header0044.png");
+	background-size: cover; 
+	background-color: rgb(0,0,0);
+	backface-visibility: visible;
+	background-blend-mode: exclusion;
+	padding-top: 80%;
+	background-image-width: 100%;
+	background-image-height: : 100%;
+	height: 30rem;
+	background-attachment: fixed;
+	margin-top: 0;
+	margin-bottom: 0;
+	color:#f5f5f5; 
+	}
+.full-bg-img {
+	background-color: rgba(13,31,34,0.8);
+	backface-visibility: visible;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+
+.view {
+	padding-top: 16%;
+
+}
+#zag {
+	padding-left: 2em;
+	margin-top: 10%;
+}
+#zag h1 {}
+
+
+
+
+
+
+
+/*---Media Queries --*/
+/*@media (max-width: 992px) {
+
+.logara {
+	width: 100%;
+	height: 25%;
+	margin: 0 auto; 
+	padding-bottom: 0;
+}
+.zastavice {
+	align-items: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0.7em 3em;
+}
+.slicice {
+	display: block;
+	width: 100%;
+	align-items: left;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+}
+.slicice a {
+	font-size: 1em;
+
+}
+
+}
+
+@media (max-width: 768px) {
+	.carousel-caption {
+	
+	top: 45%;
+
+}
+.carousel-caption h1 {
+	font-size: 350%;
+}
+.carousel-caption h3 {
+	font-size: 200%;
+	font-weight: 500%;
+
+	padding-bottom: 1rem;
+}
+.display-4 {
+	font-size: 200%;
+}
+.zastavice {
+	align-items: center;
+	width: 100%;
+	
+	margin: 0 auto;
+	padding: 0.7em 3em;
+}
+
+
+
+}
+
+
+
+@media (max-width: 576px) {
+#navbarResponsive {
+	max-width: 100%;
+	width: 100%;
+	margin: 1.4em 0 2em 3em;
+	background-color: rgba(53,127,189,0.8);/* #357fbd;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	box-shadow: 0 0 2em 2em rgba(53,127,189,0.5);
+	text-align: center;
+	border-radius: 0 0 4% 4%;
+}
+
+.carousel-caption h1 {
+	font-size: 120%;
+}
+.zastavice {
+	align-items: center;
+	width: 100%;
+	
+	margin: 0 auto;
+	padding: 0.7em 3em;
+}
+
+.logara {
+	width: 100%;
+	height: 25%;
+	margin: 0 auto; 
+	
+	margin: 0 auto;
+}
+#osnova {
+	
+	display: block;
+	
+}
+.slicice {
+	display: block;
+	width: 100%;
+	align-items: left;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 0;
+}
+.slicice a {
+	font-size: 1em;
+
+}
+
+}*/

@@ -1,0 +1,251 @@
+@import url('https://fonds.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:400,400i,700i,900&subset=latin-ext');
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #f5f5f5;
+	background: #0d1f22; /*#264027;*/
+}
+body {
+	padding-top: 0;
+}
+.container.gallery-container {
+	background-color:#0d1f22;#264027;
+	padding-bottom: 4%;
+
+}
+
+.gallery-container h1 {
+	color: #888;
+	padding-top: 1.5em;
+}
+.tz-gallery .card-gal {
+	background-color: #0d1f22;
+	margin-bottom: 1em;
+}
+.tz-gallery .card-gal p {
+	color: #fff; 
+	margin: 0 auto;
+	padding-top: .1em;
+	padding-bottom: .3em;
+	font-size: .8em;
+	font-style: italic;
+	font-weight: lighter;
+	padding-right: .5em;
+	padding-left: .5em;
+}
+.tz-gallery .lightbox img {
+	margin-bottom: 0;
+}
+
+.dno {
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-color: #fff;
+	margin: 1rem auto;
+}
+#kraj h5{
+	
+}
+
+
+@media (max-width: 992px) {
+	#oosnova {
+	height: 20%;
+}
+#osnova {
+	padding: 0;
+}
+
+
+.logara {
+	width: 40%;
+	margin: o auto;
+	padding-top: 1em;
+	padding-bottom: 0;
+	padding-left: 2em;
+}
+#logara {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+#osnova .slicice {
+	margin-bottom: 0;
+	margin-top: 3em;
+	margin-left: 13em;
+	padding: 0;
+	font-size: .8em;
+	width: 40%;
+	text-align: right;
+}
+#osnova .slicice a {
+	padding-top: 0;
+}
+#osnova .zastavice {
+	margin: 0 auto;
+	padding: 0 0.7em 0 0;
+	width: 20%;
+	text-align: right;
+}
+}
+
+
+@media (max-width: 768px) {
+.logara {
+	width: 100%;
+	height: 15%;
+	margin: o auto;
+	padding-top: 1em;
+	padding-bottom: 0;
+	
+	text-align: center;
+	
+}
+#osnova .slicice {
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 3em;
+	text-align: left;
+}
+#osnova .zastavice {
+	margin: 0 auto;
+	padding-right: 1em;
+	width: 30%;
+	text-align: right;
+}
+}
+@media (max-width: 576px) {
+
+#intro {
+	height: 50%;
+	padding-top: 5%;
+}
+#oosnova {
+	height: 20%;
+}
+#osnova {
+	padding: 0;
+}
+
+
+#osnova .logara {
+	width: 100%;
+	margin: o auto;
+	padding-top: 2em;
+	padding-bottom: 0;
+	padding-left: 2em;
+}
+#logara {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+#osnova .slicice {
+	width: 73%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-left: .8em;
+	font-size: .9em;
+}
+#osnova .slicice a {
+	padding-top: 0;
+}
+#osnova .zastavice {
+	width: 27%;
+	margin: 0 auto;
+	padding-right: .4em;
+	
+}
+
+}
+@media (max-width: 368px) {
+	#osnova .zastavice{
+		width: 10%;
+}
+
+
+}
+/*
+
+.slicice {
+	padding: 4.1em 0 0 6.6em;
+}
+.slicice p {
+	display: inline-grid;
+	font-size: .7em;
+	color: #000;
+	text-align: left;
+	line-height: 1.5em;
+
+}
+.slicice p{
+	height: 2.3em;
+	
+}
+.slicice a {
+	padding-right: 2em;
+	text-decoration: none;
+}
+.slicice span img {
+	height: 1.3em;
+	margin-top: .9em;
+
+}
+.slicice span {
+	padding-right: 0.6em;
+}
+#odvoj {
+	padding-left: 2.9em;
+}
+.zastavice {
+	padding-right: 0;
+	padding-left: 5em;
+	
+}
+.zastavice a {
+	
+}
+.zastavice button {
+	border-radius: 50%;
+	height: 2em;
+	width: 3em;
+
+	
+}
+.zastavice a button img {
+	height: 50%;
+	align-items: center;
+	
+}
+.ruski img {
+	align-items: center;
+	padding-bottom: 15%;
+	min-width: 70%;
+	min-height: 80%;
+}
+/*
+.engleski button {
+	background-image: url("./../img/gb.svg");
+	background-size: cover;
+
+}*
+.engleski img {
+	align-items: center;
+	padding-bottom: 15%;
+	max-width: 70%;
+	max-height: 80%;
+
+}
+.srpski img {
+	align-items: center;
+	padding-bottom: 15%;
+	min-width: 70%;
+	min-height: 80%;
+}
+*/

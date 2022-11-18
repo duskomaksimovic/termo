@@ -1,0 +1,887 @@
+@import url('https://fonds.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #f5f5f5;
+	background: #0d1f22; /*#264027;*/
+}
+
+
+.navbar {
+	padding: .8rem;
+}
+.navbar-nav li {
+	padding-right: 20px; 
+}
+.nav-link {
+	font-size: 1.1em !important;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption {
+	/*position: absolute;
+	top: 50%;
+	transform: translateY(-50%);*/
+}
+.carousel-caption h1 {
+	/*font-size: 500%;
+	text-transform: uppercase;*/
+	text-shadow: 1px 1px 20px #0d1f22;
+	padding-top: 1rem;
+	color: rgba(999,999,999,0.6);
+}
+.carousel-caption h3 {
+	/*font-size: 200%;*/
+	font-weight: 500%;
+	text-shadow: 1px 1px 20px #0d1f22;
+	padding-bottom: 1rem;
+}
+/*   DUGMAD  
+ 
+.btn-prymary {
+	background-color: #6648b1;
+	border: 1px solid #6648b1;
+}
+.btn-primary:hower {
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+ 
+*/
+.jumbotron {
+	background-image: url('./header002.jpg');
+	background-size: cover; 
+	background-blend-mode: exclusion;
+	padding-top: 5rem;
+	background-image-width: 100%;
+	background-image-height: : 100%;
+	height: 30rem;
+	background-attachment: fixed;
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+.jumbotron h2 {
+	padding: 16rem 16rem 20px 16rem;
+	font-size: 1.6em;
+
+	color: #0d1f22;
+}
+.padding {
+	padding-bottom: 2rem;/*---OVO JE ZA SVE PADDINGE STO SMO POSTAVILI --*/
+}
+/*---ya welcome section --*/
+.welcome {
+	width: 75%;
+	margin: 0 auto;/*---ovo centrira --*/
+	padding-top: 2rem;
+} 
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+/*---Ovo je ono usrano dugme na rasklapanje --*/
+.fun {
+	width: 80%;
+	margin: 0 auto;
+	
+	border-radius: 20px
+}
+#slibe img {
+	width: 100%;
+	
+}
+.card {
+	height: 85%;
+	border-radius: 0;
+}
+.card h4 {
+	font-size: 1.2em;
+}
+.card p {
+	font-size: .6em;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #00aced;
+}
+.fa-google-plus-g {
+	color: #dd4b39;
+}
+.fa-instagram {
+	color: #517fa4;
+}
+.fa-youtube {
+	color: #bb0000;
+}
+#footer {
+	background-color: #0d1f22;
+	color: #fff;
+	padding-top: 2rem;
+}
+#footer  {
+	border-top: 1px solid 10px #264027;/*#0d1f22; #264027;*/
+	border-bottom: 1px solid 10px #264027;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+#footer hr {
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-color: #fff;
+}
+
+/*---Media Queries --*/
+
+
+
+
+
+
+
+
+/*--- Firefox Bug Fix --*/
+.caruousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+}
+/*---Fixed Background Image --*/
+
+#fixara {
+	height: 20rem;
+	margin-bottom: 10rem;
+}
+/*----Bootstrap Padding Fix--*/
+[class*="col-"] {
+	padding: 1rem;
+}
+#navbarResponsive ul li {
+	color: #0d1f22;
+	
+}
+#dno{
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-color: #fff;
+	margin: 1rem auto;
+}
+#footer h5 {
+	font-size: 1.5em;
+}
+.col-12 h5{
+	font-size: 1em;
+}
+#intro  {
+	overflow: hidden;
+	height: 100%;
+	background-image: url("./../img/header0044.jpg");
+
+	background-size: cover; 
+	background-color: rgb(0,0,0);
+	backface-visibility: visible;
+	background-blend-mode: exclusion;
+	padding-top: 10rem;
+	background-image-width: 100%;
+	background-image-height: : 100%;
+	height: 40rem;
+	background-attachment: fixed;
+	margin-top: 0;
+	margin-bottom: 0;
+	color:#f5f5f5; 
+	}
+#intro h1 {
+	font-size: 1.4em;
+}
+.full-bg-img {
+	background-color: rgba(13,31,34,0.8);
+	backface-visibility: visible;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+}
+#ludaja h2,#ludaja p {
+	color: #000;
+}
+.card-body {
+	background-color: #0d1f22;
+}
+.card-img-top {
+	height: 40%;
+	
+
+}
+#karta {
+	background-color: #0d1f22;
+	border-radius: 0;
+
+}
+.card_btt {
+	padding: 6rem:; 
+}
+
+#jumbo_index h2 {
+	font-weight: 800%;
+	text-shadow: 1em 1em .8em #0d1f22;
+	font-weight: bolder;
+}
+.sep{
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-color: #fff;
+	margin: 3rem auto;
+	width: 70%;
+}
+.slicice {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 4em;
+	padding-left: 4em;
+
+
+}
+
+.galon {
+	margin-top: 6rem;
+
+}
+.galon h2 {
+	padding-top: 3em;
+}
+.galon p {
+	font-style: italic;
+	padding: 2em;
+}
+.kont {
+	padding-left: 4%;
+}
+#naslov h1 {
+	font-size: 1.3em;
+}
+#gl {
+	height: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+#osnova .slicice {
+		text-align: right;
+	}
+figure #fixed h4 {
+	margin-top: 31%;
+	padding-right: 2em;
+	font-weight: 700;
+}
+.kartice .card {
+	height: 90%;
+}
+.kartice .card p {
+	margin-bottom: 10%;
+	font-size: 1em;
+}
+.kartice #karta1 p {
+	margin-bottom: 14%;
+}
+.kartice #karta2 p {
+	margin-bottom: 16%;
+}
+#intro {
+	height: 80%;
+	padding-top: 2%;
+	font-size: 1.6em;
+}
+.view {
+	margin-top: 0;
+}
+.zastavice button {
+	border-radius: 50%;
+	height: 2.5em;
+	width: 2.5em;
+	padding-right: 0.5em;
+
+	
+}
+.zastavice a button img {
+	height: 80%;
+	width: 100%;
+	align-items: center;
+	padding-bottom:27%;
+	
+}
+
+
+
+} 
+@media (max-width: 1200px) { 
+#oosnova {
+	height: 20%;
+}
+#osnova {
+	padding: 0;
+}
+
+.logara {
+	width: 40%;
+	margin: o auto;
+	padding-top: 1em;
+	padding-bottom: 0;
+	padding-left: 2em;
+}
+#logara {
+	height: 90%;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+#osnova .slicice {
+	width: 40%;
+	margin: 0 ;
+	padding-bottom: 0;
+	margin-top: 2em;
+	padding-left: .5em;
+	padding-right: 0;
+	text-align: right;
+	padding-top: 0;
+}
+#osnova .slicice a {
+	font-size: .8em;
+	display: inline-block;
+	margin: .5em auto ;
+	padding-left: .5em;
+	padding-top: 0;
+
+}
+#osnova .slicice a p {
+	font-size: .7em;
+}
+#osnova .zastavice {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	width: 15%;
+	margin-right: .2em;
+}
+#osnova .zastavice a {
+	display: inline-grid;
+
+}
+figure #fixed h4 {
+	margin-top: 40%;
+	padding-right: 2em;
+	font-weight: 600;
+	font-size: 1em;
+	font-style: italic;
+}
+.kartice .card {
+	font-size: 1em;
+	margin:0 auto;
+	margin-bottom: 3rem;
+	width: 100%;
+	height: 30rem;
+	padding: 0;
+}
+.kartice .card p {
+	font-style: italic;
+	padding-bottom: 5%;
+	font-size: .8em;
+}
+
+.kartice .card-body .btn {
+	margin-top: 1em;
+	margin-bottom: .5em;
+	font-size: .9em;
+}
+.kartice #karta {
+	padding-right: 0;
+	margin-right: 0; 
+}
+.kartice #karta1 {
+	padding-right: 0;
+	margin-right: 0; 
+}
+.kartice #karta p {
+	margin-bottom: 9%; 
+}
+.kartice #karta1 p {
+	margin-bottom: 15%; 
+}
+.kartice #karta2 p {
+	margin-bottom: 17%; 
+}
+#intro {
+	height: 70%;
+	padding-top: 5%;
+}
+
+}
+
+
+
+
+@media (max-width: 992px) {
+.carousel-caption h1 {
+	font-size: 400%;
+}
+.gmapa {
+	max-width: 90%;
+	margin: 1em 1em;
+	overflow-x: hidden;
+}
+#oosnova {
+	height: 20%;
+}
+#osnova {
+	padding: 0;
+}
+
+
+.logara {
+	width: 30%;
+	margin: o auto;
+	padding-top: 1em;
+	padding-bottom: 0;
+	padding-left: 2em;
+}
+#logara {
+	height: 80%
+	width: 80%;
+	padding: 0;
+	margin: 0 auto;
+}
+#osnova .slicice {
+	width: 50%;
+	margin: 0 ;
+	padding-bottom: 0;
+	margin-top: 2em;
+	padding-left: .5em;
+	padding-right: 0;
+	text-align: right;
+	padding-top: 0;
+}
+#osnova .slicice a {
+	font-size: .8em;
+	display: inline-block;
+	margin: .5em auto ;
+	padding-left: .5em;
+	padding-top: 0;
+
+}
+#osnova .slicice a p {
+	font-size: .7em;
+}
+#osnova .zastavice {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	width: 18%;
+	margin-right: .2em;
+}
+#osnova .zastavice a {
+	display: inline-grid;
+
+}
+.kartice .card {
+	margin: 0 auto 3rem;
+	width: 70%;
+	height: 40rem;
+}
+.kartice .card img {
+	height: 53%;
+}
+.kartice .card p {
+	font-size: .8em;
+	margin-bottom: 5%;
+}
+.kartice #karta .card-body {
+	padding-top: 2em;
+}
+.kartice #karta a {
+	margin-top: 2em;
+}
+.kartice #karta p {
+	margin-bottom: 6%;
+}
+.kartice #karta1 a {
+	margin-top: 1.1em;
+}
+.kartice #karta1 p {
+	margin-bottom: 13%;
+}
+
+.kartice #karta2 a {
+	margin-top: 1em;
+}
+.kartice #karta2 p {
+	margin-bottom: 13%;
+}
+#footer h5 {
+	font-size: 1.5em;
+}
+.col-12 h5{
+	font-size: .8em;
+}
+}
+
+
+
+@media (max-width: 768px) {
+	.carousel-caption h1 {
+	font-size: 250%;
+}
+figure {
+	height: 60%;
+}
+figure #fixed h4 {
+	box-shadow: 1em,2em,3em,2em rgba(0,0,0,0,0.9) ;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 70%;
+	font-weight: 600;
+	font-size: 1em;
+	margin-right: 0;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-style: italic;
+	color: rgba(255,255,255,0.8);
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: left;
+	line-height: 1.5em;
+}
+.logara {
+	width: 100%;
+	height: 30%;
+	margin: o auto;
+	padding-top: 2em;
+	padding-bottom: 0;
+	padding-left: 2em;
+	text-align: center;
+	
+}
+.logara #logara {
+	width: 80%;
+}
+#osnova .slicice {
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 0;
+	padding-top: 0;
+	
+	text-align: left;
+}
+#osnova .slicice a {
+	font-size: .8em;
+	display: inline-block;
+	margin: .6em auto ;
+	padding-left: .2em;
+	padding-right: .2em;
+	padding-top: 0;
+}
+#osnova .zastavice {
+	margin: 1em auto;
+	padding-right: 1em;
+	width: 30%;
+	text-align: right;
+}
+.kartice .card {
+	margin: 0 auto;
+	width: 80%;
+	height:90%;
+	margin-bottom: 2rem;
+}
+.kartice .card img {
+	height: 48%;
+}
+.kartice .card p {
+	font-size: .9em;
+}
+
+
+.kartice #karta a {
+	margin-top: 2em;
+}
+.kartice #karta p {
+	margin-bottom: 14%;
+}
+.kartice #karta1 a {
+	margin-top: 0;
+}
+.kartice #karta1 p {
+	padding-bottom: 0;
+}
+.kartice #karta2 {
+	width: 100%;
+}
+.kartice #karta2 a {
+	margin-top: 1em;
+
+}
+.kartice #karta2 p {
+	padding-bottom: 5%;
+}
+.gmapa {
+	max-width: 90%;
+	
+	margin: 1em 1em;
+	overflow-x: hidden;
+}
+#intro {
+	height: 60%;
+	padding-top: 5%;
+}
+#footer h5 {
+	font-size: 1em;
+}
+.col-12 h5{
+	font-size: .7em;
+}
+}
+
+
+@media (max-width: 576px) {
+
+#intro {
+	height: 55%;
+	padding-top: 5%;
+}	
+.carousel-caption h1 {
+	font-size: 120%;
+}
+figure  {
+	height: 60%;
+}
+
+figure #fixed h4 {
+
+	
+	margin-top: 60%;
+	font-weight: 600;
+	font-size: 1em;
+	margin-right: 0;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-style: italic;
+	
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: left;
+	line-height: 1.5em;
+}
+#oosnova {
+	height: 20%;
+}
+#osnova {
+	padding: 0;
+}
+
+
+#osnova .logara {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 2em;
+	padding-bottom: 0;
+	padding-left: 2em;
+}
+#logara {
+	width: 80%;
+	padding: 0;
+	margin: 0 auto;
+}
+#osnova .slicice {
+	width: 73%;
+	margin: 0 auto;
+	padding-left: .3em;
+	font-size: 1em;
+	text-align: left;
+}
+#osnova .slicice a {
+	padding-top: 0;
+	text-align: left;
+}
+#osnova .zastavice {
+	width: 27%;
+	margin: 1em auto;
+	padding-right: .4em;
+	
+}
+.kartice .card {
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	margin-bottom: 3rem;
+}
+.kartice .card img {
+	height: 53%;
+}
+.kartice #karta .card-body {
+	padding-top: 1em;
+	
+}
+.kartice .card-body p {
+	font-size: .8em;
+
+}
+.kartice #karta p {
+	margin-bottom: 22%;
+}
+.kartice #karta a {
+	margin-top: 0;
+}
+.kartice #karta1 p {
+	padding-bottom: 0;
+}
+.kartice #karta1 a {
+	margin-top: 0em;
+}
+.kartice #karta2 p {
+	padding-bottom: 9%;
+}
+.kartice #karta2 a {
+	margin-top: .7em;
+
+}
+.gmapa {
+	max-width: 90%;
+	
+	margin: 1em 1em;
+	overflow-x: hidden;
+}
+
+
+.col-12 h5{
+	font-size: .5em;
+}
+
+
+}
+
+
+#fixed h4 {
+	background-color: rgba(0,0,0,0.45);
+}
+.dropdown-divider {
+	padding: 0;
+	margin: 0;
+}
+@media (max-width: 768px) {
+	#meni {
+		padding-right: 0;
+	}
+	#navbarResponsive .navbar-nav {
+		width: 100%;
+		margin-right: 0;
+		background-color: #003d74;
+
+	}
+}
+@media (max-width: 442px) {
+#osnova .zastavice {
+	width: 10%;
+	margin: 1em auto;
+	margin-top: 1em;
+	padding-right: .4em;
+	
+}
+#osnova .slicice {
+	width: 73%;
+	margin: 1.6em auto;
+	padding-left: .3em;
+	font-size: 1em;
+	text-align: left;
+	padding-right: 0;
+}
+.card-body .btn a  {
+	font-size: .3em;
+}
+}
+@media (max-width: 422px) {
+	#osnova .zastavice {
+	width: 10%;
+	margin: 1em auto;
+	margin-top: 3em;
+	padding-right: .4em;
+	
+}
+
+}
+@media (max-width: 368px) {
+	/*#osnova .zastavice{
+		width: 10%;
+	}*/
+
+.kartice .card p {
+	font-size: .6em;
+}
+
+.kartice .card-body .karta a  {
+	font-size: .2em;
+}
+.card-btt {
+	font-size: .1em;
+}	
+.galon {
+	margin-top: 1em;
+}
+.galon h2 {
+	padding: 0 2em;
+}
+.galon hr {
+	margin-top: 0;
+}
+.galon p {
+	padding-top: .2em;
+	padding-bottom:.2em;
+	margin-bottom: 0;
+}
+.col-12 h5{
+	font-size: .5em;
+}
+
+}
+.refa p {
+	font-weight: 100;
+	font-style: italic;
+	
+
+}
+
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
